@@ -18,7 +18,7 @@ function Index() {
       <div className="w-2/6 m-auto">
         <FormLogin onHandlerSubmit={onSubmit} />
         <p className="mt-4">
-          Tidak punya akun?,{' '}
+          Tidak punya akun? ayoo buat ,{' '}
           <NavLink type="button" to="/register" className="rounded-2xl text-blue-500 font-bold">
             SignUp
           </NavLink>
