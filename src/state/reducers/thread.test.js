@@ -1,3 +1,17 @@
+/**
+ * test scenario for threadReducer
+ *
+ * - threadReducer function
+ *  - should return the initial state when given by unknown action
+ *  - should return the thread  when given by FETCH_THREADS action
+ *  - should return new thread  when given by ADD_NEW_THREAD action
+ *  - should return the thread  with toggled UpVote when given by LIKE_THREAD_VOTE action
+ *  - should return the thread with toggled DownVote when given by UNLIKE_THREAD_VOTE action
+ *  - should return the thread without toggled UpVote and DownVote when given
+ *    by RESET_THREAD_VOTE action
+ */
+
+
 import threadReducer from './threads';
 
 describe('threadReducers function', () => {
