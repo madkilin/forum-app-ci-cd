@@ -9,7 +9,7 @@ function Index() {
   const navigate = useNavigate();
   const onSubmit = ({ event, email, password }) => {
     event.preventDefault();
-    dispatch(asyncSetAuthUser({ email, password }));
+    dispatch(asyncSetAuthUser({ email }));
     navigate('/');
   };
   return (
