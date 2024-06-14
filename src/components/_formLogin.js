@@ -35,7 +35,7 @@ function FormLogin({ onHandlerSubmit }) {
             placeholder="password"
           />
         </div>
-
+        <input type="submit" className="w-full bg-yellow-400 mt-4 p-1 rounded-sm" value="Login" />
       </form>
     </div>
   );
